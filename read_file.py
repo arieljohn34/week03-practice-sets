@@ -1,7 +1,7 @@
 import os
 
 def read_file(file_name1):
-    with open(file_name1, 'r', encoding='utf-8') as file:
+    with open(file_name1, 'r',) as file:
         lines = file.readlines()
 
         
